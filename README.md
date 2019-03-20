@@ -27,6 +27,7 @@ public class CommongLoggingExtensionTestClass
     }
   ...
 }
+```
 - That's it!
 
 ## License
