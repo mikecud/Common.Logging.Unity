@@ -1,12 +1,12 @@
-# Unity.CommonLogging [![Build Status](https://travis-ci.com/mikecud/Unity.CommonLogging.svg?branch=master)](https://travis-ci.com/mikecud/Unity.CommonLogging)
+# Common.Logging.Unity [![Build Status](https://travis-ci.com/mikecud/Common.Logging.Unity.svg?branch=master)](https://travis-ci.com/mikecud/Common.Logging.Unity)
 
 Unity extension to integrate with [Common.Logging](https://github.com/net-commons/common-logging) logging abstraction.
 
 ## Installation
 
-Unity.CommonLogging is available on NuGet. Just search for "Unity.CommonLogging" in NuGet Package Manager or use command:
+Common.Logging.Unity is available on NuGet. Just search for "Common.Logging.Unity" in NuGet Package Manager or use command:
 ```
-Install-Package Unity.CommonLogging
+Install-Package Common.Logging.Unity
 ```
 
 ## Usage

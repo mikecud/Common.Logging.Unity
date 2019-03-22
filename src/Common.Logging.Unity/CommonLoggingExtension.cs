@@ -1,12 +1,11 @@
-﻿using Common.Logging;
-using System;
-using System.Security;
+﻿using System.Security;
+using Unity;
 using Unity.Builder;
 using Unity.Extension;
 using Unity.Policy;
 using Unity.Resolution;
 
-namespace Unity.CommonLogging
+namespace Common.Logging.Unity
 {
     [SecuritySafeCritical]
     public class CommonLoggingExtension : UnityContainerExtension

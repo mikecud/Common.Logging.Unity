@@ -1,10 +1,10 @@
-using Common.Logging;
 using Common.Logging.Configuration;
 using Common.Logging.Simple;
 using FluentAssertions;
+using Unity;
 using Xunit;
 
-namespace Unity.CommonLogging.Tests
+namespace Common.Logging.Unity.Tests
 {
     /// <summary>
     /// Test class that depends on logger
@@ -28,10 +28,13 @@ namespace Unity.CommonLogging.Tests
         public void ResolveTestClass_TestClassHasLoggerOfProperType()
         {
             // Arrange
-            var config = new LogConfiguration();
-            config.FactoryAdapter = new FactoryAdapterConfiguration();
-            config.FactoryAdapter.Type = typeof(DebugLoggerFactoryAdapter).FullName;
-            LogManager.Configure(config);
+            LogManager.Configure(new LogConfiguration
+            {
+                FactoryAdapter = new FactoryAdapterConfiguration
+                {
+                    Type = typeof(DebugLoggerFactoryAdapter).FullName
+                }
+            });
 
             var logger = LogManager.GetLogger<CommongLoggingExtensionTestClass>() as DebugOutLogger;
             var container = new UnityContainer();

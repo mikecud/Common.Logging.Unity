@@ -1,5 +1,5 @@
 language: csharp
-solution: Unity.CommonLogging.sln
+solution: Common.Logging.Unity.sln
 mono: none
 dotnet: 2.1.401
 
@@ -7,4 +7,4 @@ install:
  - dotnet restore
 
 script:
- - dotnet test tests/Unity.CommonLogging.Tests/Unity.CommonLogging.Tests.csproj
+ - dotnet test tests/Common.Logging.Unity.Tests/Common.Logging.Unity.Tests.csproj

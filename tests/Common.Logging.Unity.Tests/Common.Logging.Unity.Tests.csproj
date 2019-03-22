@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Unity.CommonLogging\Unity.CommonLogging.csproj" />
+    <ProjectReference Include="..\..\src\Common.Logging.Unity\Common.Logging.Unity.csproj" />
   </ItemGroup>
 
 </Project>
