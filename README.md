@@ -5,6 +5,7 @@ Unity extension to integrate with [Common.Logging](https://github.com/net-common
 ## Installation
 
 Common.Logging.Unity is available on NuGet. Just search for "Common.Logging.Unity" in NuGet Package Manager or use command:
+
 ```
 Install-Package Common.Logging.Unity
 ```
@@ -32,8 +33,8 @@ public class CommongLoggingExtensionTestClass
 
 ## License
 
-Dual licensed under "The Unlicense" and MIT. 
+Dual licensed under ["The Unlicense"](LICENSE.md) and ["MIT"](LICENSE.MIT.md) .
 
-"The Unlicense" is recommended for most cases, because it let's you use DynamicWhereBuilder with no restrictions under no conditions. If "The Unlicense" is for some reason not suitable for you, take it under MIT license. 
+"The Unlicense" is recommended for most cases, because it let's you use extension with no restrictions under no conditions. If "The Unlicense" is for some reason not suitable for you, take it under MIT license. 
 
-Check out [LICENSE.md](LICENSE.md) file for more information.
+In any case, feel free to use this piece of software for any purposes (including commercial use).
